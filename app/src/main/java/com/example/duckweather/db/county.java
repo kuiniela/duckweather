@@ -2,7 +2,7 @@ package com.example.duckweather.db;
 
 import org.litepal.crud.DataSupport;
 
-public class county extends DataSupport {
+public class County extends DataSupport {
     private int id;//每一个实体类都需有一个id
     private String countyName; //记录区县名称
     private int countyCode;//记录区县代码
